@@ -1,0 +1,200 @@
+<html>
+   <head>
+	<title>FORMULARIO</title>
+<h1><center><font color="black">BIENVENIDO</font></center></h1>
+<p><left><strong>Ing. Luis Raul Caballero Hernandez</strong></left></p>
+		</head>
+			<body background="gray.jpg ">
+					<form><center>
+					
+<!-- <table border=2 align=center> -->
+				<table width="100%" height="50px" border="1px"> 
+				<tr height="40px">
+					<td colspan="2px">
+						<table border="0">
+							<tr><td colspan="6"><h2><center>Datos Personales</center></h2></td></tr>
+					
+							<tr>
+							<td>Nombre :</td>
+							<td><input type="text" name="nombre" id="nombre"></td>
+	
+							<td>Apellido Paterno :</td>
+							<td><input type="text" name="apellido" id="apellido"></td>
+							<td>Apellido Materno :</td>
+							<td><input type="text" name="apellido1" id="apellido1"></td>
+							</tr></br>
+							
+						</table>
+					</td>
+				</tr>
+				<tr  height="40px">
+					<td colspan="2px">
+						<table>
+							<tr>
+							<td>Edad :</td>
+							<td><input type="text" name="edad" id="edad"></td>
+							<td>Email :</td>
+							<td><input type="text" name="email" id="email"></td>
+							<center><td>Fecha de Nacimiento :</td>
+							<td><input type="text" name="nac" id="nac">/<input type="text" name="nac1" id="nac1">/<input type="text" name="nac2" id="nac2"></td></center>
+							</tr>
+						</table>
+				</tr>
+					</td>
+				<tr height="400px">
+					<td>
+						<table>
+						
+						<tr>
+							<td><strong>Seleccion de datos</strong></td>
+							</tr>
+							<tr>
+							<td>&iquest;Dias preferidos?</td>
+							<td>
+							<input type="checkbox" name="domingo" id="domingo">Domingo <br/>
+							<input type="checkbox" name="lunes" id="lunes"> Lunes <br/>
+							<input type="checkbox" name="martes" id="martes"> Martes <br/>
+							<input type="checkbox" name="miercoles" id="miercoles"> Miercoles<br/>
+							<input type="checkbox" name="jueves" id="jueves"> Jueves <br/>
+							<input type="checkbox" name="viernes" id="viernes"> Viernes <br/>
+							<input type="checkbox" name="sabado" id="sabado"> Sabado <br/>
+							
+							</td>
+						
+							</tr>
+							
+							<tr>
+							
+							<td>&iquest;Cada cuanto te ejercitas?</td>
+							<td>
+							<input type="radio" name="semana" id="vez0" value="0"> Nunca <br/>
+							<input type="radio" name="semana" id="vez1" value="1"> 1 vez*semana <br/>
+							<input type="radio" name="semana" id="vez2" value="2"> 2 veces*semana <br/>
+							<input type="radio" name="semana" id="vez3" value="3"> 3 veces*semana <br/>
+							<input type="radio" name="estacion" id="vez4" value="4"> 4 veces*semana <br/>
+							</td>
+							</tr>
+							<tr>
+							<td>Especifica :</td>
+							<td><input type="text" name="especifica" id="especifica"> </td>
+							</tr>
+
+							<tr>
+							<td>&iquest;Te gusta leer?</td>
+							<td>
+							<select name="opcion" id="opcion">
+							<option value="0">Si</option>
+							<option value="1" selected="selected">No</option>
+							</select>
+							</td>
+							</tr>
+
+							<tr>
+							<td>&iquest;Que tipo de libro lees?</td>
+							<td>
+							<select name="tiposl" id="tiposl" size="3" multiple="multiple">
+							<option value="0"> Romance </option>
+							<option value="1" >Dramaticas</option>
+							<option value="2"> Historicas</option>
+							<option value="3"selected="selected"> Suspenso</option>
+							</select>
+							</td>
+							</tr>
+
+							<td>&iquest;Deporte(s) favorito(s)?</td>
+							<td>
+							<input type="checkbox" name="domingo" id="domingo">Futbol <br/>
+							<input type="checkbox" name="lunes" id="lunes"> Baloncesto <br/>
+							<input type="checkbox" name="martes" id="martes"> Beisbol <br/>
+							<input type="checkbox" name="miercoles" id="miercoles"> Natacion<br/>
+							<input type="checkbox" name="jueves" id="jueves"> Atletismo <br/>
+							<input type="checkbox" name="viernes" id="viernes"> Boxeo <br/>
+							<input type="checkbox" name="sabado" id="sabado"> Ciclismo<br/>
+							<input type="checkbox" name="sabado" id="sabado"> Voleibol<br/>
+							</td>
+							</table>
+							</td>
+							<td>
+						
+						<table title="datos"  width="500px">
+						<tr>
+								<td><strong>Entidad Federativa</strong></td>
+								
+							<td>
+								<input type ="text" name="ent" id="ent">
+							</td>
+								</tr>
+								<tr>
+								<td><strong>Municipio</strong></td>
+							<td>
+								<input type ="text" name="municipio" id="municipio">
+							</td>
+								</tr>
+						<tr>
+								<td><strong>Colonia</strong></td>
+							<td>
+								<input type ="text" name="colonia" id="colonia">
+							</td>
+								</tr>
+						<tr>
+							<td><strong>Direccion</strong></td>
+							<td>
+								<input type ="text" name="direccion" id="direccion">
+							</td>
+								
+							<td><strong># Manzana</strong></td>
+							<td>
+								<input type ="text" name="manzana" id="manzana">
+							</td>
+								
+							<td><strong># Lote </strong></td>
+							<td>
+								<input type ="text" name="lote" id="lote">
+							</td>
+								</tr>
+								
+							<tr>
+								<td>Mensaje oculto</td>
+								<td><input type="hidden" name="secret" id="secret" value=" "></td>
+								<td><input type="text" name="ocult" id="ocult"></td>
+								</tr>
+								</tr>
+								<td>Enviar el formulario</td>
+								<td><input type="submit" value="enviar"></td>
+								
+								</tr>
+								<tr>
+								<td>Limpiar</td>
+								<td><input type="reset" value="limpiar"></td>
+								
+								</tr>
+	
+							
+						</table>
+								
+							</td>
+							</tr>
+						
+						
+					
+						</table>	
+							
+					</table> 
+					
+			   
+          
+
+
+
+
+
+
+
+
+
+
+
+<!-- </table> -->
+					</center></form>
+			</body>
+</html>
